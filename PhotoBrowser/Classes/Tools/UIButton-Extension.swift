@@ -2,7 +2,7 @@
 //  UIButton-Extension.swift
 //  PhotoBrowser
 //
-//  Copyright © 2016年 小码哥. All rights reserved.
+//  Copyright © 2016年 张战威. All rights reserved.
 //
 
 import UIKit
