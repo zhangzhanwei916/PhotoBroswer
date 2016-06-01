@@ -85,8 +85,8 @@ extension PhotoBrowserController {
         saveBtn.frame = CGRect(x: saveBtnX, y: btnY, width: btnW, height: btnH)
         
         // 3.设置两个按钮的属性
-        closeBtn.addTarget(self, action: "closeBtnClick", forControlEvents: .TouchUpInside)
-        saveBtn.addTarget(self, action: "saveBtnClick", forControlEvents: .TouchUpInside)
+        closeBtn.addTarget(self, action: #selector(PhotoBrowserController.closeBtnClick), forControlEvents: .TouchUpInside)
+        saveBtn.addTarget(self, action: #selector(PhotoBrowserController.saveBtnClick), forControlEvents: .TouchUpInside)
         
         // 4.设置collectionView相关的属性
         // AnyClass : UIButton.self

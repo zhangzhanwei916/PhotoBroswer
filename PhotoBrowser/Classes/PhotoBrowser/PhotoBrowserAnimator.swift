@@ -47,7 +47,7 @@ extension PhotoBrowserAnimator : UIViewControllerTransitioningDelegate {
 extension PhotoBrowserAnimator : UIViewControllerAnimatedTransitioning {
     // 1.返回动画执行的时间
     func transitionDuration(transitionContext: UIViewControllerContextTransitioning?) -> NSTimeInterval {
-        return 2.0
+        return 1.0
     }
     
     // 2.可以获取转场的上下文:可以通过上下文获取到执行动画的View
